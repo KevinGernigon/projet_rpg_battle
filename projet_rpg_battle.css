@@ -1,0 +1,45 @@
+.monstres {
+  display: flex;
+  font: 40px Arial, sans-serif;
+  background-color: #F5F5DC;
+  justify-content: center;
+  position: fixed;
+  left: 40%;
+}
+
+#personnage_1{
+  display: flex;
+  font: 40px Arial, sans-serif;
+  background-color: #DC143C;
+  justify-content: center;
+  position: fixed;
+  top: 80%;
+  left: 42%;
+}
+
+.menu_choix {
+  display: flex;
+  flex-direction: column;
+  font: 20px Arial, sans-serif;
+  align-items: center;
+  background-color: #6495ED;
+  position: fixed;
+  top: 70%;
+  left: 10%;
+}
+
+.stats_monstres {
+  font: 20px Arial, sans-serif;
+  background-color: #A9A9A9;
+  position: fixed;
+  left: 25%;
+  top: 5%;
+}
+
+.stats_personnages{
+  font: 20px Arial, sans-serif;
+  background-color: #A9A9A9;
+  position: fixed;
+  top: 83%;
+  left: 26%;
+}
